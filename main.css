@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+div#exit-pop-up {
+  position: absolute;
+  top: 50%; left: 50%;
+  height: 310px; width: 310px;
+  margin-top: -155px; margin-left: -155px;
+  padding: 0 3px 0 3px;
+  z-index: 20;
+  display: none;
+  text-align: justify;
+}
+
+div#bg-out{
+  position: absolute;
+  top: 0; left: 0;
+  background: #000;
+}
