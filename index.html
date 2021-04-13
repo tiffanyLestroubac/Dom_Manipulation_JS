@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha484-ggOyR0iXCbMQv4Xipma44MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./main.css">
+
+    <title>The Food Place</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <br>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" id="homeLink" href="#" style='color: red; border: 3px solid red;'>Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="menuLink" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="photoLink" href="#">Photos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">BIENTÔT : Super fonctionalité</a>
+        </li>
+      </ul>
+      <br>
+
+      <div id='content'>
+        <div id='home'>
+            <img src="./img/food.jpeg" alt="Food picture" width="100%;">
+            <br><br>
+            <h1 class="text-center">Produit Frais et bio !</h1>
+          <br>
+          <br>
+          <br>
+        </div>
+        
+      </div>
+
+    </div>
+
+
+    <div id='exit-pop-up' class="card text-white bg-info mb-3" style="max-width: 18rem;">
+      <div class="card-header">
+        <button id="closePopup" type="button" class="close" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        Popup anti-abandon</div>
+      <div class="card-body">
+        <h5 class="card-title">Ce popup va te convaincre de rester !</h5>
+        <p class="card-text">Ici c'est super, tu peux avoir plein de trucs ! Alors c'est cool, tu peux rester :)</p>
+      </div>
+    </div>
+
+    <div id='bg-out'></div>
+
+    <script id='menuContent' type='text/html'>
+      <div id='menu' class='text-center'>
+        <h1>Au menu du jour</h1>
+        <h4>Plat principal</h4>
+        <ul>
+          <li>Colin d'Alaska sur son lit de dorade</li>
+        </ul>
+        <h4>Accompagnements</h4>
+        <ul>
+          <li>Non pas une mais LA salade ! Revenue à la poêle d'Antan</li>
+        </ul>
+        <br>
+      </div>
+      <a class='btn btn-warning' href="#" id='mixMenu' >Marre de ce menu ? Changez-le !</a>
+    </script>
+    <!-- Main script -->
+    <script src="main.js"></script>
+  </body>
+</html>
